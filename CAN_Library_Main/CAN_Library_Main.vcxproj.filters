@@ -21,15 +21,9 @@
     <ClInclude Include="Visual Micro\CAN_Library.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Program Files (x86)\Arduino\libraries\FlexCAN_Library-master\FlexCAN.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CAN_Library_Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Program Files (x86)\Arduino\libraries\FlexCAN_Library-master\FlexCAN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

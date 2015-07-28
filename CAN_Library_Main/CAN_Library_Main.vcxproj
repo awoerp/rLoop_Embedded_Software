@@ -73,12 +73,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Program Files (x86)\Arduino\libraries\FlexCAN_Library-master\FlexCAN.h" />
     <ClInclude Include="CAN_Library_Main.h" />
     <ClInclude Include="Visual Micro\CAN_Library.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Program Files (x86)\Arduino\libraries\FlexCAN_Library-master\FlexCAN.cpp" />
     <ClCompile Include="CAN_Library_Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
