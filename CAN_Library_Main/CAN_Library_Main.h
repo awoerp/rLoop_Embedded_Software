@@ -12,8 +12,30 @@
 #ifndef CAN_LIBRARY_MAIN
 #define CAN_LIBRARY_MAIN
 
-#include "FlexCAN_Library-master\FlexCAN.h"
-#include "MCP_CAN_lib-master\mcp_can.h"
+#include "Arduino.h"
+
+class CanNode
+{
+private:
+   int baudRate; 
+protected:
+
+public:
+   CanNode(int rate);
+   ~CanNode();
+   virtual void Send(Message txMessage) = 0;
+   virtual void Begin() = 0;
+
+
+
+};
+
+
+class Message
+{
+
+
+}
 
 
 

@@ -1,0 +1,12 @@
+﻿Build started 7/27/2015 8:24:14 PM.
+     1>Project "C:\Users\Andy\Desktop\Programs\rLoop_Embedded_Software\rLoop_Embedded_Software\CAN_Library_Main\CAN_Library_Main.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" /IC:\Users\Andy\Desktop\Programs\rLoop_Embedded_Software\CAN_Library_Main /I"C:\Program Files (x86)\Arduino\libraries" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IC:\Users\Andy\Documents\Arduino\libraries /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D F_CPU=16000000L /D ARDUINO=164 /D ARDUINO_AVR_UNO /D ARDUINO_ARCH_AVR /D __cplusplus /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FI"C:\Users\Andy\Desktop\Programs\rLoop_Embedded_Software\CAN_Library_Main\Visual Micro\.CAN_Library_Main.vsarduino.h" /analyze- /errorReport:prompt CAN_Library_Main.cpp
+         CAN_Library_Main.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\andy\desktop\programs\rloop_embedded_software\rloop_embedded_software\can_library_main\can_library_main.cpp : fatal error C1083: Cannot open include file: 'C:\Users\Andy\Desktop\Programs\rLoop_Embedded_Software\CAN_Library_Main\Visual Micro\.CAN_Library_Main.vsarduino.h': No such file or directory
+     1>Done Building Project "C:\Users\Andy\Desktop\Programs\rLoop_Embedded_Software\rLoop_Embedded_Software\CAN_Library_Main\CAN_Library_Main.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

@@ -83,5 +83,5 @@ extern "C" void __cxa_pure_virtual() {;}
 #define portOutputRegister(P)
 #define portInputRegister(P)
 #define portModeRegister(P)
-#include <CAN_Library.ino>
+#include "CAN_Library.ino"
 #endif
